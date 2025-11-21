@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://patient.mskdoctor.ru/sitemap.xml
+Sitemap: https://abscess.mskdoctor.ru/sitemap.xml
