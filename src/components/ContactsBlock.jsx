@@ -57,7 +57,7 @@ export const ContactsBlock = memo(() => {
 
 
                 </Box>
-                <Box>
+                <Box sx={{visibility: 'hidden'}}>
                     {/*<iframe
                         className='map'
                         src="https://yandex.ru/map-widget/v1/?um=constructor%3A604ee8345ca097d664aa1c7764529b62cb0469a88360ead0ce5d5df219788165&amp;source=constructor"
