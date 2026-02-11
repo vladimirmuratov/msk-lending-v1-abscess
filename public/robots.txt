@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-
+Disallow: /*?*
 Sitemap: https://msk-abscess.vercel.app/sitemap.xml

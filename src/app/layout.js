@@ -26,6 +26,9 @@ export const metadata = {
         url: 'https://msk-abscess.vercel.app',
         type: 'website',
         locale: 'ru_RU',
+    },
+    alternates: {
+        canonical: 'https://msk-abscess.vercel.app',
     }
 };
 
