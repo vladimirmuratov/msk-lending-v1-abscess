@@ -6,16 +6,16 @@ import { TelegramIcon } from '@/components/icons/TelegramIcon';
 import { MaxIcon } from '@/components/icons/MaxIcon';
 // import Image from 'next/image';
 
-const SocialBlock = ({ className = '', color = 'var(--main-color)', isMobile = false }) => {
+const SocialBlock = ({ className = '', color = 'var(--main-color)', style = {} }) => {
 
     return (
         <Box
             sx={{
-                marginTop: '10px',
                 width: '100%',
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'space-around'
+                justifyContent: 'space-around',
+                ...style
             }}
             className={className}
         >
