@@ -1,11 +1,10 @@
+import { memo } from 'react';
 import { Box, Link, Typography } from '@mui/material';
 import { email, phoneNumber, phoneNumber2 } from '@/config';
-import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
-import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import CallIcon from '@mui/icons-material/Call';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import SocialBlock from '@/components/SocialBlock';
-import { memo } from 'react';
+// import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 
 export const ContactsBlock = memo(() => {
     return (
@@ -50,15 +49,15 @@ export const ContactsBlock = memo(() => {
 
                     <Box sx={{ paddingLeft: '34px' }}>
                         <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>ООО "МСК"</Typography>
-                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>ИНН: 9725116009</Typography>
-                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>КПП: 772501001</Typography>
-                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>ОГРН: 1237700147343</Typography>
-                        <SocialBlock className="banner-social-mobile" style={{marginTop: '10px'}} />
+                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>ИНН: 9727115000</Typography>
+                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>КПП: 772701001</Typography>
+                        <Typography sx={{ fontSize: { xs: '14px', sm: '16px' } }}>ОГРН: 1257700446321</Typography>
+                        <SocialBlock className="banner-social-mobile" style={{ marginTop: '10px' }} />
                     </Box>
 
 
                 </Box>
-                <Box sx={{visibility: 'hidden'}}>
+                <Box sx={{ visibility: 'hidden' }}>
                     {/*<iframe
                         className='map'
                         src="https://yandex.ru/map-widget/v1/?um=constructor%3A604ee8345ca097d664aa1c7764529b62cb0469a88360ead0ce5d5df219788165&amp;source=constructor"
